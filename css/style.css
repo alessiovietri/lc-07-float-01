@@ -20,7 +20,76 @@ body {
     color: white;
 }
 
+main {
+    padding: 50px 0;
+}
+
+h1, h2, h3, section {
+    margin-bottom: 40px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #e53170;
+}
+
+h2 {
+    color: #fa8907;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
+}
+	
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+img {
+    height: 250px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 15px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 15px;
+}
+
+
+
+/* TEST */
+.test-container {
+    border: 10px solid green;
+}
+
+.test-red,
+.test-blue,
+.test-yellow {
+    width: 400px;
+    height: 200px;    
+}
+
+.test-red {
+    background-color: red;
+    float: left;
+}
+
+.test-blue {
+    background-color: blue;
+    float: right;
+}
+
+.test-yellow {
+    background-color: yellow;
+    float: left;
 }
